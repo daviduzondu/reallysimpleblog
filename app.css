@@ -48,7 +48,8 @@ td {
 
 .info {
   position: relative;
-  top: 10px;
+  padding-top: 15px;
+  padding-bottom:10px;
   text-align: center;
   font-size: smaller;
 }
