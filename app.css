@@ -17,6 +17,7 @@ body {
   position: absolute;
   left: 50%;
   width: 60%;
+  height: fit-content;
   background-color: bisque;
   transform: translateX(-50%);
 }
@@ -39,15 +40,25 @@ header {
 }
 
 table, th, td {
+  padding:10px;
     border: 1px solid black;
     border-collapse: collapse;
   }
 
+.footer{
+  position: sticky;
+  margin: 0 auto;
+  padding:5px;
+  width: inherit;
+  background-color: bisque;
+  bottom:0px;
+}
 .title {
   font-size: 40px;
 }
 .app {
   width: 100%;
+  min-height: 500px;
   position: inherit;
   text-align: left;
 }
