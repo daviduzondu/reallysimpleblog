@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* position: initial; */
+  width: 100%;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  position: absolute;
+  left: 50%;
+  width: 60%;
+  background-color: bisque;
+  transform: translateX(-50%);
+}
+
+@media (max-width:720px) {
+    body{
+        /* background-color: red; */
+        width: 90%;
+    }
+}
+.loading{
+    position: relative;
+    margin: 0 auto;
+}
+header {
+  position: sticky;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.title {
+  font-size: 40px;
+}
+.app {
+  width: 100%;
+  position: inherit;
+  text-align: left;
+}
+.content {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.9rem;
+}
+
+.by {
+  font-size: 13px;
+  margin-top: 10px;
+}
+sup {
+  font-size: 10px;
+}
+a {
+  color: rgb(45, 45, 245);
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: grey;
+  pointer-events: none;
+}
+
+.tagline {
+  font-size: 12px;
+  font-weight: 100px;
+}
+
+.hidden {
+  display: none;
+}

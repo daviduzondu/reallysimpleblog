@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>A really simple blog</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Blog <p class="tagline">With Database powered by Google Sheets</p>
+        </h1>
+        <div class="navigation">
+            <a class="prev disabled" onclick="goToPrevious()">&lt&ltprevious</a>
+            <a class="next disabled" onclick="goToNext()">next&gt&gt </a>
+        </div>
+    </header>
+
+    <div class="app">
+        <div class="loading"> Loading... Please Wait</div>
+        <div class="title"> </div>
+        <div class="by"> </div>
+        <div class="content"> </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
